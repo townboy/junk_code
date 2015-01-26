@@ -39,7 +39,7 @@ class Grab(object):
         self.click()
        
     def click(self):
-        data = {'nid' : '20044'}
+        data = {'nid' : '20340'}
         self.s.post(self.like_url + str(int(time.time() ) ), data)
         
         
